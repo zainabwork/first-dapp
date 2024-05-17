@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect,useState } from 'react';
 import SingleDetail from './SingleDetail';
 
-const TransactionDetails = ({hash}) => {
+const TransactionDetails = ({hash}:any) => {
   const [transactionHashes, setTransactionHashes] = useState<string[]>([]);
 
     useEffect(() => {
